@@ -1,24 +1,36 @@
 {
   "name": "website-github",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seunggyubyun/website-github.git"
+    "url": "https://github.com/seunggyubyun/website-github.git"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/seunggyubyun/website-github/issues"
   },
-  "homepage": "https://github.com/seunggyubyun/website-github#readme",
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "~4.17.15",
     "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "css-loader": "^3.5.3",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-mixins": "^6.2.3",
+    "postcss-nested": "^4.2.1",
+    "postcss-simple-vars": "^5.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   }
 }
