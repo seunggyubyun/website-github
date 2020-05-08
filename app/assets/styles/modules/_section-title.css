@@ -12,6 +12,15 @@
 	}
 
 	&__icon {
-		margin-right: 0.5rem;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 0.6rem;
+
+		@mixin atSmall {
+			margin-right: 0.5rem;
+			margin-left: 0;
+			display: inline-block;
+		}
 	}
 }

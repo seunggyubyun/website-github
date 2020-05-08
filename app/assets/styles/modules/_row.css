@@ -1,6 +1,5 @@
 .row {
-	background-color: yellow;
-
+	
 	@mixin clearfix;
 
 	&--gutters {
